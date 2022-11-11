@@ -1,12 +1,39 @@
+* {
+    box-sizing: inherit;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+/* ======== BUTTON STYLE ======== */
 .button{
     background-color:#e5202b;
-    color: rgb(255 255 255 / 80%);
     padding: 16px 20px;
-    font-size: .875rem;
     display: inline-block;
     border-radius: 0;
-    text-align: center;
     cursor: pointer;
-    text-transform: uppercase;
     letter-spacing: -.02em;
+    width:100px;
+    height: 50px;
+    position: absolute;
+    top:50%;
 }
+/* ============================= */
+
+/* ======== TEXT STYLE ======== */
+.button{
+    color: rgb(255 255 255 / 80%);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: .875rem;
+    font-family: 'Lobster', cursive;
+}
+/* ============================= */
+
+
+
+a {
+    background-color: transparent;
+}
+
