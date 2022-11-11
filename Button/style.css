@@ -1,1 +1,12 @@
-
+.button{
+    background-color:#e5202b;
+    color: rgb(255 255 255 / 80%);
+    padding: 16px 20px;
+    font-size: .875rem;
+    display: inline-block;
+    border-radius: 0;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: -.02em;
+}
