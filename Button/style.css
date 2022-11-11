@@ -4,20 +4,31 @@
 }
 body{
     display: flex;
+    align-items: center;
     justify-content: center;
+    padding-bottom: 10px;
+}
+.main{
+    width: 500px;
+    height: 300px;
+    background-color:#f5f1f1;
+    margin-top: 150px;
+    position: relative;
+    padding: 0;
 }
 /* ======== BUTTON STYLE ======== */
 .button{
     background-color:#e5202b;
-    padding: 16px 20px;
+    padding: 4px 3px;
     display: inline-block;
     border-radius: 0;
     cursor: pointer;
-    letter-spacing: -.02em;
     width:100px;
-    height: 50px;
+    height: 30px;
     position: absolute;
     top:50%;
+    right: 50%;
+    z-index: 10;
 }
 /* ============================= */
 
@@ -28,12 +39,21 @@ body{
     text-align: center;
     font-size: .875rem;
     font-family: 'Lobster', cursive;
+    letter-spacing: 0;
 }
 /* ============================= */
 
+/* ======== right side STYLE ======== */
+.right_side{
+    width:0px;
+    height:0px;
+    border-width:38px 23px 0px 0px;
+    border-style:solid;
+    border-color:red transparent transparent transparent;
+    position:absolute;
+    top:50%;
+    right:40%;
+    z-index: 1;
 
-
-a {
-    background-color: transparent;
 }
-
+/* ============================= */
