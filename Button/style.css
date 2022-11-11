@@ -36,18 +36,23 @@ body{
     top:50%;
     z-index: 10;
 
-    transform: translateX(-100%) skewY(-45deg);
+
+    transform:  rotate(320deg) skewY(40deg);
 }
 /* ============================= */
 
 /* ======== TEXT STYLE ======== */
-.button{
+.button-text{
+    background-color:#e5202b;
     color: rgb(255 255 255 / 80%);
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-align: center;
-    font-size: .956rem;
+    font-size: 1.1rem;
     font-family: 'Lobster', cursive;
     letter-spacing: 0;
+    z-index: 20;
+    position: absolute;
+    top:52.5%;
 }
 /* ============================= */
 
