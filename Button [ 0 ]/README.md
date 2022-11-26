@@ -2,6 +2,6 @@
 
 GIF { 
   500x250px
-  40fps 
+  60fps 
   Zoom 250% 
 }
