@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.image1{
+/** size of the circle| right[0%=>50%] & left[50%=>100%] | up[0%=>50%] & down[50%=>100%]**/
+  /* clip-path:circle(50% at center center); */
+  clip-path:circle(40% at 50% 40%);
+
+  
+}
+.image2{
+
+
+    clip-path:circle(40% at 49% 35%);
+  
+    
+  }
