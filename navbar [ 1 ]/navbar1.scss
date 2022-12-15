@@ -1,3 +1,52 @@
 body {
-  background-color: #050505;
+  background-color: hsl(0, 0%, 2%);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding-bottom: 1000px;
+
+}
+
+
+
+header {
+  position: fixed;
+  width: 100%;
+}
+.container {
+  background-color: rgba(255, 0, 0, 0.281);
+  background-image: linear-gradient(to top, hsl(0, 0%, 2%),rgba(255, 0, 0, 0.281) );
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 70px 1fr ;
+  grid-template-rows: 50px;
+}
+
+
+
+.logo {
+width: 40px;
+margin: auto;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+  li {
+    list-style: none;
+   padding-inline: 10px;
+
+    a {
+      text-decoration: none;
+      color: white;
+      transition: all 200ms;
+    }
+    
+    a:hover {
+      text-shadow: 0 0 20px rgb(255, 255, 255);
+      font-weight: 500;
+    }
+  }
 }
